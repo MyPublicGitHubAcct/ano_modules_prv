@@ -4,13 +4,13 @@
 
 This repo, _ano_modules_prv_, includes folders for modules with this structure:
 
-> __<module name>__ - contains the name.c file & those it runs
-  > __bootloader__ - bootloader unique to this module
-  > __data__ - binaries included in what is stored on the module
-  > __drivers__ - drivers unique to this module
-  > __hardware_design__ - KiCad files, etc.
-  > __python__ - scripts used to do pre-build things for this module
-  > __tests__ - test scripts
+- __<module name>__ - contains the name.c file & those it runs
+  - __bootloader__ - bootloader unique to this module
+  - __data__ - binaries included in what is stored on the module
+  - __drivers__ - drivers unique to this module
+  - __hardware_design__ - KiCad files, etc.
+  - __python__ - scripts used to do pre-build things for this module
+  - __tests__ - test scripts
 
 This repo relies on _ano_lib_prv_, which is included as a submodule at the same level as the module folders.
 
