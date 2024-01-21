@@ -1,0 +1,4 @@
+[submodule "ano_lib_prv"]
+	path = ano_lib_prv
+	url = https://github.com/MyPublicGitHubAcct/ano_lib_prv.git
+	branch = main
